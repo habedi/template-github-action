@@ -26,7 +26,7 @@
             graphviz
             pre-commit
             uv
-            python3
+            python315
           ];
 
           shellHook = ''
