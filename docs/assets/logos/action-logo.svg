@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2088FF"/>
+      <stop offset="100%" stop-color="#0969DA"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="42" fill="url(#grad1)"/>
+  <path d="M50 42 L78 60 L50 78 Z" fill="#FFFFFF"/>
+  <circle cx="82" cy="42" r="6" fill="#58A6FF"/>
+  <circle cx="82" cy="78" r="6" fill="#58A6FF"/>
+  <text x="120" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#24292F">GitHub Action</text>
+  <text x="120" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#57609A">TypeScript Template</text>
+</svg>

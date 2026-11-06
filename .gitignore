@@ -1,0 +1,45 @@
+########################
+# Node & Dependencies
+########################
+node_modules/
+.npm/
+
+########################
+# Build & Test Outputs
+########################
+lib/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+########################
+# Python / Dev Tooling
+########################
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+########################
+# IDE / Editor Files
+########################
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*~
+*.bak
+*.tmp
+*.log
+
+########################
+# OS & Miscellaneous
+########################
+.DS_Store
+Thumbs.db
+.env

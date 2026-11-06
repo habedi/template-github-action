@@ -1,0 +1,25 @@
+default_stages: [pre-push]
+fail_fast: false
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+        exclude: ^dist/
+      - id: end-of-file-fixer
+        exclude: ^dist/
+      - id: check-yaml
+      - id: check-toml
+      - id: check-added-large-files
+        args: ['--maxkb=2500']
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      - id: test
+        name: Run Action Tests
+        entry: make test
+        language: system
+        pass_filenames: false
